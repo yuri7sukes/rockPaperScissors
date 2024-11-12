@@ -4,8 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="script.js"></script>
+  <div class="body-container">
+    <div class="header-container">
+      <div class="block blk-you">
+        <p class="p-you">YOU</p>
+        <p class="p-score-you">0</p>
+      </div>
+      <div class="block blk-msg">
+        <p class="p-msg">Make a choice</p>
+      </div>
+      <div class="block blk-comp">
+        <p class="p-comp">COMP</p>
+        <p class="p-score-comp">0</p>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="main left">
+        <div class="object rock">
+          <img src="img/emma-stone.png" alt="" width="180" height="230" class="img" data-object="камень">
+        </div>
+        <div class="object paper">
+          <img src="img/paper.png" alt="" width="180" class="img" data-object="бумага">
+        </div>
+        <div class="object scissors">
+          <img src="img/scissors.png" alt="" width="180" class="img" data-object="ножницы">
+        </div>
+      </div>
+      <div class="vertical-rule">0<br>1<br>0<br>1<br>0<br>0<br>1<br>1<br>0<br>1<br>1<br>1<br>0<br>1<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>0<br>1<br>1<br>0<br>1<br>0<br>0<br>1<br>0<br>1<br>1<br>1 </div>
+      <div class="main right">
+        <div class="object comp-obj"></div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+

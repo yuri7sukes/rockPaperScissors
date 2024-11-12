@@ -1,0 +1,59 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 45%;
+  }
+
+.main-container {
+    display: flex;
+    margin: auto;
+    width: 1500px;
+    justify-content: space-between;
+}
+
+div.block.blk-you {
+  margin-left: 34px;
+  font-size: 32px;
+  font-weight: 600;
+}
+div.block.blk-comp {
+  margin-right:  34px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: pink;
+    color: white;
+    font-family: 'a_little_sunshineregular';
+}
+
+.blk-msg {
+    font-size: 34px;
+}
+
+@font-face {
+    font-family: 'a_little_sunshineregular';
+    src: url('fonts/a_little_sunshine-webfont.woff2') format('woff2'),
+         url('fonts/a_little_sunshine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
